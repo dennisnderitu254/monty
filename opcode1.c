@@ -101,3 +101,31 @@ void _div(stack_t **doubly, unsigned int cline)
 	aux->n /= (*doubly)->n;
 	_pop(doubly, cline);
 }
+
+/**
+ * _mul - subtract the top element form top with the second last
+ * @head: the head node
+ * @cline: the line number
+ */
+
+void _mul(stack_t **head, unsigned int cline)
+{
+	int m = 0;
+	stack_t *current;
+
+	current = *head;
+
+	for (; current != NULL; current = current->next, m++)
+		;
+
+	if (m < 2)
+	{
+		dprintf(2, "L%u: can't sub, stack too short\n", cline);
+		free_vglo();
+		exit(EXIT_FAILURE);
+	}
+
+	current = (*head)->next;
+	current->n *= (*head)->n;
+	_pop(head, cline);
+}
