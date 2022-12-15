@@ -3,10 +3,10 @@
 /**
  * _mod - computes the rest of the division of the second element
  * by the top element of the stack
- *
  * @doubly: head of the linked list
  * @cline: line number;
  * Return: no return
+ * Description: The result is stored in the second value node from the top and the top value is removed.
  */
 
 void _mod(stack_t **doubly, unsigned int cline)

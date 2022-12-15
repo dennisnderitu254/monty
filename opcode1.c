@@ -1,9 +1,11 @@
 #include "monty.h"
 
 /**
- * _add - add the top 2 elements of the stack
+ * _add - Adds the top two values of a stack_t linked list.
  * @doubly: head of the linked list
  * @cline: line number
+ * Description: The result is stored in the second value node
+ * from the top and the top value  is removed.
  */
 void _add(stack_t **doubly, unsigned int cline)
 {
@@ -38,9 +40,11 @@ void _nop(stack_t **doubly, unsigned int cline)
 	(void)cline;
 }
 /**
- * _sub - subtract the top element form top with the second last
+ * _sub - Subtracts the second value from the top of a stack_t linked list by the top value.
  * @head: the head node
  * @cline: the line number
+ * Description: The result is stored in the second value node
+ * from the top and the top value is removed.
  */
 
 void _sub(stack_t **head, unsigned int cline)
@@ -66,8 +70,7 @@ void _sub(stack_t **head, unsigned int cline)
 }
 
 /**
- * _div - divides the second element by the top element of the stack
- *
+ * _div -  Divides the second value from the top of a stack_t linked list by the top value.
  * @doubly: head of the linked list
  * @cline: line number;
  * Return: no return
@@ -103,9 +106,10 @@ void _div(stack_t **doubly, unsigned int cline)
 }
 
 /**
- * _mul - subtract the top element form top with the second last
+ * _mul - Multiplies the second value from the top of a stack_t linked list by the top value.
  * @head: the head node
  * @cline: the line number
+ * Description: The result is stored in the second value node from the top and the top value is removed.
  */
 
 void _mul(stack_t **head, unsigned int cline)
