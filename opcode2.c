@@ -6,7 +6,8 @@
  * @doubly: head of the linked list
  * @cline: line number;
  * Return: no return
- * Description: The result is stored in the second value node from the top and the top value is removed.
+ * info:The result is stored in 2nd value node from the top
+ * and top value removed.
  */
 
 void _mod(stack_t **doubly, unsigned int cline)

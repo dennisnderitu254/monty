@@ -40,7 +40,7 @@ void _nop(stack_t **doubly, unsigned int cline)
 	(void)cline;
 }
 /**
- * _sub - Subtracts the second value from the top of a stack_t linked list by the top value.
+ * _sub - Subtracts 2nd value from the top of stack_t linked list by top value.
  * @head: the head node
  * @cline: the line number
  * Description: The result is stored in the second value node
@@ -70,7 +70,7 @@ void _sub(stack_t **head, unsigned int cline)
 }
 
 /**
- * _div -  Divides the second value from the top of a stack_t linked list by the top value.
+ *_div -Divides 2nd value from the top of stack_t linkedlist by the top value.
  * @doubly: head of the linked list
  * @cline: line number;
  * Return: no return
@@ -106,10 +106,11 @@ void _div(stack_t **doubly, unsigned int cline)
 }
 
 /**
- * _mul - Multiplies the second value from the top of a stack_t linked list by the top value.
+ *_mul -Multiplies 2nd value from the top of stack_t linked list by top value.
  * @head: the head node
  * @cline: the line number
- * Description: The result is stored in the second value node from the top and the top value is removed.
+ * info:The result is stored in the 2nd value node
+ * from the top and top value removed.
  */
 
 void _mul(stack_t **head, unsigned int cline)
