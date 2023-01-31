@@ -96,7 +96,7 @@
 -   The rotl opcode
 -   The opcode rotl rotates the stack to the top.
 
-### 14. rotr
+### 14. rotr #advanced
 -   Implement the rotr opcode.
 -   The rotr opcode
 -   The opcode rotr rotates the stack to the bottom.
