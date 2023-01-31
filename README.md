@@ -1,7 +1,7 @@
 0x19. C - Stacks, Queues - LIFO, FIFO
 =====================================
 
--   By Dennis Nderitu and Samson Kimani
+-  By Dennis Nderitu and Samson Kimani
 
 ![](https://pbs.twimg.com/media/CFYYWy6UEAE9Ow-.png)
 
